@@ -1,0 +1,11 @@
+.:
+total 4
+drw-rwxr-x. 2 eugene eugene 22 Oct 20 15:02 dir
+-rw-r-----. 1 root   eugene  5 Oct 20 14:58 file
+-rw-------. 1 eugene eugene  0 Oct 20 15:12 file1
+-rw-rw-rw-. 1 eugene eugene  0 Oct 20 15:18 file2
+-rw-rw-rw-. 1 eugene eugene  0 Oct 20 15:28 log.txt
+
+./dir:
+total 0
+-????????? ? ? ? ?            ? new_file
