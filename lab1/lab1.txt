@@ -1,0 +1,130 @@
+1  rm bach history
+    2  rm bash history
+    3  rm bashhistory
+    4  rm .bash_history
+    5  man grep
+    6  whoam1
+    7  whoami
+    8  echo "Hello world"
+    9  echo date
+   10  date
+   11  cal
+   12  man cal
+   13  cal -3
+   14  history
+   15  clear
+   16  s
+   17  pwd
+   18  cd /
+   19  pwd
+   20  ls
+   21  cd ..
+   22  pwd
+   23  ls var/
+   24  cd ~
+   25  cd ..
+   26  ls
+   27  pwd
+   28  ls
+   29  ls -l
+   30  ls
+   31  cd
+   32  mkdir fruits
+   33  ls
+   34  cd /
+   35  ls
+   36  mkdir ~/animals
+   37  cd ~/tmp/tmp
+   38  touch ~/tmp/tmp
+   39  ls
+   40  cd
+   41  ls
+   42  cd fuits
+   43  cd fruits
+   44  touch banana
+   45  touch apple
+   46  touch pineapple
+   47  touch lion
+   48  touch ../animals/cat.txt
+   49  ls
+   50  touch ../animals/dog.txt
+   51  touch ../animals/elephant.txt
+   52  ls -l
+   53  ll
+   54  ls b*
+   55  ls a*
+   56  ls [bi]*
+   57  ls b* i*
+   58  cp /etc/passwd ~
+   59  cat /etc/isssue
+   60  cat /etc/issue
+   61  cp /etc/issue apple
+   62  cat apple
+   63  cp lion ../animals
+   64  ls
+   65  cat /etc/passwd
+   66  ls
+   67  mv pineapple pin
+   68  ls
+   69  mv pin pineapple
+   70  man wc
+   71  wc -l /etc/passwd
+   72  cd
+   73  ln -s /etc/passwd passwd_link
+   74  ln .bash_history history_hard
+   75  ls -l
+   76  ls -l ~/.bach_history
+   77  ls -l ~/.bash_history
+   78  rm fruits/apple
+   79  mkdir rmme
+   80  mrmdir rmme
+   81  rmdir rmme
+   82  rmdir fruits
+   83  rm -fr fruits
+   84  man cat
+   85  cat /etc/passwd /var/log/boot.log
+   86  cp /etc/init.d/ ~
+   87  cp ~r /etc/init.d/ ~
+   88  cp -r /etc/init.d/ ~
+   89  man cut
+   90  cut -d: -f1 /etc/passwd | sort
+   91  man -f1
+   92  man -f
+   93  man
+   94  man column
+   95  men
+   96  man less
+   97  cut -d: -f1,3,4 /etc/passwd | column -ts: | less
+   98  cut -d: -f1,2,3,4 /etc/passwd | column -ts: | less
+   99  cat /etc/passwd
+  100  cut -d: -f1 /etc/passwd | column -ts: | less
+  101  grep :/bin/bash /etc/passwd |wc -l
+  102  man wc
+  103  grep :/bin/bash /etc/passwd
+  104  grep :/bin/bash /etc/passwd | sort -r
+  105  grep :/bin/bash /etc/passwd | sort
+  106  grep :/bin/bash /etc/passwd | sort -r | cut -d: -f1
+  107  man grep
+  109  rpm -qa --qf '%{NAME}: %{SIZE}\n' | sort -rn -k2,2 | head -n 5
+  110  rpm -qa --qf '%{NAME}: %{SIZE}\n' | sort -rn -k2,2 | head -n 6
+  111  rpm -qa --qf '%{NAME}: %{SIZE}\n' | sort -rn -k2,2 | head -n 25
+  112  rpm -ql man-db | xargs -l du 2> /dev/null | sort -n
+  113  top -b -n1 | sort
+  114  man sort
+  115  --sort help | less
+  116  quit
+  117  sort --help
+  119  cat /etc/passwd
+  120  cat /etc/passwd | sort -n -t: -k1
+  121  cat /etc/passwd | sort -n -t: -f1
+  122  sort --help
+  123  ping ya.ru
+  124  curl wttr.in
+  125  hostname -I
+  126  curl ifconfig.me
+  127  wget http://raw.githubusercontent.com/jlevy/the-art-of-command-line/master/README-ru.md
+  128  ls
+  129  cat README-ru.md | less
+  130  cat /var/log/messages
+  131  sudo cat /var/log/messages
+  132  history > history.txt
