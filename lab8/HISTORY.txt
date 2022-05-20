@@ -1,11 +1,11 @@
-  1  cd ~
-  2  ldd /bin/login | grep pam
-  3  ls -l /lib64/libpam*
-  4  ls -l /lib64/security/
-  5  vi /etc/pam.d/system-auth
-  7  vi /etc/pam.d/su
-  8  auth sufficient pam_permit.so
-  9  auth sufficient pam_permit.so
+   1  cd ~
+   2  ldd /bin/login | grep pam
+   3  ls -l /lib64/libpam*
+   4  ls -l /lib64/security/
+   5  vi /etc/pam.d/system-auth
+   7  vi /etc/pam.d/su
+   8  auth sufficient pam_permit.so
+   9  auth sufficient pam_permit.so
   10  su auth sufficient pam_permit.so
   11  sudo su auth sufficient pam_permit.so
   12  sudo su
